@@ -53,7 +53,7 @@ client.on('message', message => {
                         .setTitle('Sistema de sanciones de guillerp')
                         .setColor(0xFFFF00)
                         .setThumbnail('TULOGO')
-                        .setDescription(`El jugador ${member.user} ha recibido un WARN por ${args}. Si quieres apelar el warn dirigete a <#739613403609301060>` );
+                        .setDescription(`El jugador ${member.user} ha recibido un WARN por ${args}.` );
                     message.channel.send(embed);
 					message.delete();
                     let guild = client.guilds.cache.get('TU GUILD ID')
@@ -98,7 +98,7 @@ client.on('message', message => {
                         .setTitle('Sistema de sanciones de guillerp')
                         .setColor(0xff0000)
                         .setThumbnail('TULOGO')
-                        .setDescription(`El jugador ${member.user} ha recibido un STRIKE por ${args}. Si quieres apelar el strike dirigete a <#739613403609301060>` );
+                        .setDescription(`El jugador ${member.user} ha recibido un STRIKE por ${args}.` );
                     message.channel.send(embed);
 					message.delete();
                     let guild = client.guilds.cache.get('TU GUILD ID')
@@ -142,7 +142,7 @@ client.on('message', message => {
                         .setTitle('Sistema de sanciones de guillerp')
                         .setColor(0x000000)
                         .setThumbnail('TULOGO')
-                        .setDescription(`El jugador ${member.user} ha recibido un BANEO por ${args}. Si quieres apelar el ban dirigete a <#739613403609301060>` );
+                        .setDescription(`El jugador ${member.user} ha recibido un BANEO por ${args}.` );
                     message.channel.send(embed);
 					message.delete();
                     let guild = client.guilds.cache.get('TU GUILD ID')
