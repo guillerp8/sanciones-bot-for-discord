@@ -52,7 +52,7 @@ client.on('message', message => {
                     const embed = new MessageEmbed()
                         .setTitle('Sistema de sanciones de guillerp')
                         .setColor(0xFFFF00)
-                        .setThumbnail('TULOGO')
+                        .setThumbnail('https://i.ibb.co/mSRPk4d/dsaWack.png')
                         .setDescription(`El jugador ${member.user} ha recibido un WARN por ${args}.` );
                     message.channel.send(embed);
 					message.delete();
@@ -97,7 +97,7 @@ client.on('message', message => {
                     const embed = new MessageEmbed()
                         .setTitle('Sistema de sanciones de guillerp')
                         .setColor(0xff0000)
-                        .setThumbnail('TULOGO')
+                        .setThumbnail('https://i.ibb.co/mSRPk4d/dsaWack.png')
                         .setDescription(`El jugador ${member.user} ha recibido un STRIKE por ${args}.` );
                     message.channel.send(embed);
 					message.delete();
@@ -141,7 +141,7 @@ client.on('message', message => {
                     const embed = new MessageEmbed()
                         .setTitle('Sistema de sanciones de guillerp')
                         .setColor(0x000000)
-                        .setThumbnail('TULOGO')
+                        .setThumbnail('https://i.ibb.co/mSRPk4d/dsaWack.png')
                         .setDescription(`El jugador ${member.user} ha recibido un BANEO por ${args}.` );
                     message.channel.send(embed);
 					message.delete();
